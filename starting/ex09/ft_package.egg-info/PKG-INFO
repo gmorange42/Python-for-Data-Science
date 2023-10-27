@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ft-package
+Version: 0.0.1
+Summary: a sample test package
+Author: gmorange
+Author-email: gmorange@student.42.fr
+License-File: LICENSE
