@@ -15,7 +15,7 @@ class Student:
     Attributes:
     name (str): the student's name.
     surname (str): the student's surname.
-    active (bool): the student's activity status (unparameterizable).
+    active (bool): the student's activity status (True by default).
     login (str): the student's login (unparameterizable).
     id (str): the student's login (random, unparameterizable).
 
@@ -25,7 +25,7 @@ class Student:
 
     name: str
     surname: str
-    active: bool = field(init=False, default=True)
+    active: bool = field(default=True)
     login: str = field(init=False)
     id: str = field(init=False)
 
